@@ -1,0 +1,27 @@
+
+== 用 Spring REST Docs 构建API文档
+
+This is an example output for a service running at http://localhost:8080
+
+
+Example output of REST API at http://localhost:8080:
+
+#REST Docs TEST
+
+.response-fields
+include::{snippets}/RestDocsTest/response-fields.adoc[]
+
+.request
+include::{snippets}/RestDocsTest/http-request.adoc[]
+
+.response
+include::{snippets}/RestDocsTest/http-response.adoc[]
+
+#REST HATEOAS TEST
+
+.request
+include::{snippets}/RestHateoasTest/http-request.adoc[]
+
+.response
+include::{snippets}/RestHateoasTest/http-response.adoc[]
+
