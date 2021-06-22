@@ -11,9 +11,9 @@
   </parent>
 
   <groupId>com.legend</groupId>
-  <artifactId>springboot-test-examples</artifactId>
+  <artifactId>springboot-rest-examples</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>springboot-test-examples</name>
+  <name>springboot-rest-examples</name>
   <description>Demo project for Spring Boot</description>
   <properties>
     <java.version>11</java.version>
@@ -23,6 +23,7 @@
     <module>auto-rest-docs</module>
     <module>rest-docs</module>
     <module>rest-hateoas</module>
+    <module>rest-notes-data</module>
   </modules>
 
   <dependencies>
