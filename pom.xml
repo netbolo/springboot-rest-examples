@@ -11,9 +11,9 @@
   </parent>
 
   <groupId>com.legend</groupId>
-  <artifactId>springboot-rest-examples</artifactId>
+  <artifactId>springboot-tutorial</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>springboot-rest-examples</name>
+  <name>springboot-tutorials</name>
   <description>Demo project for Spring Boot</description>
   <properties>
     <java.version>11</java.version>
@@ -24,6 +24,12 @@
     <module>rest-docs</module>
     <module>rest-hateoas</module>
     <module>rest-notes-data</module>
+    <module>rest-tutorial</module>
+    <module>bootstrap-simple-application</module>
+    <module>rest-services</module>
+    <module>hibernate-thymeleaf</module>
+    <module>serving-web-content</module>
+    <module>thymeleaf-crud-webapp</module>
   </modules>
 
   <dependencies>
